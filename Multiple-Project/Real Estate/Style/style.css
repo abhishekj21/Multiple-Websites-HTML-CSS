@@ -1,0 +1,411 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* background: #0f0f10; */
+  font-family: "Poppins", sans-serif;
+  color: #ffffff;
+}
+body {
+  background-color: #f6f8;
+}
+
+.navigation {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: transparent;
+}
+.navigation img {
+  width: 110px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  background-color: transparent;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+  background-color: transparent;
+}
+ul li {
+  background: transparent;
+}
+ul li a {
+  color: black;
+  text-decoration: none;
+  color: white;
+  background: transparent;
+}
+hr {
+  width: 1120px;
+  height: 3px;
+  background-color: white;
+  margin-left: 195px;
+}
+.header-text {
+  width: 345px;
+  position: relative;
+  right: -215px;
+  margin-top: 65px;
+  background: transparent;
+}
+/* heading */
+.header-text h1 {
+  /* width: 305px; */
+  scale: 0.4s;
+  font-family: sans-serif;
+  font-weight: 800;
+  line-height: 45px;
+  margin-bottom: 20px;
+  background: transparent;
+}
+/* paragraph */
+.header-text p {
+  margin-bottom: 20px;
+  line-height: 25px;
+  scale: 0.3s;
+  background: transparent;
+}
+/* Button */
+.header-text button {
+  padding: 8px 15px;
+  background-color: #1143e7e5;
+  border: none;
+  border-radius: 15px;
+  font-size: 14px;
+  font-weight: bold;
+  color: #fff;
+  margin-bottom: 250px;
+  cursor: pointer;
+}
+.header-text button:hover {
+  background-color: antiquewhite;
+  color: darkorange;
+  transform: 0.3s;
+}
+/* second part */
+.multiple-logo {
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 35px;
+  margin-right: 35px;
+  border-radius: 15px;
+  position: relative;
+  top: -55px;
+}
+.multiple-logo img {
+  background: transparent;
+  padding: 35px 35px;
+}
+/*  this is the third part here you get all the images of house and price of house */
+.multiple-card h2 {
+  font-size: 60px;
+  font-weight: 800;
+  letter-spacing: 0.01em;
+  text-align: center;
+  color: black;
+}
+/* .multiple-card {
+  background-color: aquamarine;
+} */
+.All-cards-list {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  margin-top: 50px;
+  position: relative;
+  width: 1000px;
+  right: -255px;
+}
+.All-cards-list div:nth-child(2) {
+  margin-top: 50px;
+}
+.All-cards-list div:nth-child(3) {
+  margin-top: 100px;
+}
+.All-cards-list div:nth-child(4) {
+  margin-top: 160px;
+}
+.All-cards-list div:nth-child(5) {
+  margin-top: 100px;
+}
+.All-cards-list div:nth-child(6) {
+  margin-top: 50px;
+}
+.All-cards-list div:nth-child(7) {
+  margin-top: 40px;
+}
+.All-cards-list div:nth-child(8) {
+  margin-top: 100px;
+}
+.All-cards-list div:nth-child(9) {
+  margin-top: 150px;
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.card img {
+  width: 300px;
+  height: 290px;
+  border-radius: 40px;
+}
+/* Button and Details about card */
+.Details-Button {
+  background: white;
+  width: 270px;
+  height: 80px;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 100px;
+  position: relative;
+  top: -90px;
+}
+.Details-Button h4 {
+  color: black;
+}
+.card .Details-Button div p {
+  color: #6663e8;
+}
+h4 {
+  padding-bottom: 10px;
+}
+.Details-Button button {
+  padding: 10px 20px;
+  border-radius: 20px;
+  border: none;
+  background-color: #6663e8;
+  font-weight: 800;
+  font-size: 12px;
+}
+
+/* Fourth part */
+.Early-Bird-Book-section {
+  margin-top: 60px;
+}
+.Early-Bird-Book-section-1st {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.Early-Bird-Book-section-image-section-1 {
+  display: flex;
+  align-items: center;
+}
+.Logo-1 {
+  width: 726px;
+  height: 456px;
+}
+.Early-Bird-Book-section-image-section-1 .image-1 {
+  position: relative;
+  width: 405px;
+  height: 405px;
+  right: 537px;
+  bottom: 70px;
+  border-radius: 45px;
+}
+.Detail-of-EarlyBird {
+  position: relative;
+  right: 25%;
+}
+.Detail-of-EarlyBird h4 {
+  width: 400px;
+  font-size: 50px;
+  letter-spacing: 0.01em;
+  color: black;
+  line-height: 65px;
+}
+.Detail-of-EarlyBird p {
+  line-height: 30px;
+  color: rgba(0, 0, 0, 0.763);
+  margin-top: 20px;
+}
+.Detail-of-EarlyBird button {
+  background-color: #6663e8;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 22px;
+  margin-top: 30px;
+  font-size: 15px;
+  cursor: pointer;
+}
+.Detail-of-EarlyBird button:hover {
+  background-color: #fff;
+  color: darkgoldenrod;
+  transition-delay: 0.2s;
+}
+.Early-Bird-Book-section-2nd {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 100px;
+}
+
+.Detail-of-EarlyBird2 {
+  position: relative;
+  bottom: 180px;
+  left: 200px;
+  /* width: 150px; */
+}
+.Detail-of-EarlyBird2 h4 {
+  width: 400px;
+  font-size: 50px;
+  letter-spacing: 0.01em;
+  color: black;
+  line-height: 65px;
+}
+.Detail-of-EarlyBird2 p {
+  line-height: 30px;
+  color: rgba(0, 0, 0, 0.763);
+  margin-top: 20px;
+  width: 300px;
+}
+.Detail-of-EarlyBird2 button {
+  background-color: #6663e8;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 22px;
+  margin-top: 30px;
+  font-size: 15px;
+  cursor: pointer;
+}
+.Detail-of-EarlyBird2 button:hover {
+  background-color: #fff;
+  color: darkgoldenrod;
+  transition-delay: 0.2s;
+}
+.Logo-2 {
+  width: 726px;
+  height: 456px;
+  position: relative;
+  left: 380px;
+}
+.image-2 {
+  position: relative;
+  width: 405px;
+  height: 405px;
+  bottom: 510px;
+  left: 50%;
+  border-radius: 45px;
+}
+/* FIFTH PART */
+.subscription-part {
+  background-color: #6663e8;
+  margin-left: 15%;
+  margin-right: 15%;
+  padding: 110px;
+  position: relative;
+  top: -300px;
+  border-radius: 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.e-mail {
+  margin-top: 60px;
+}
+.subscription-part .e-mail button {
+  padding: 20px 40px;
+  border-radius: 30px;
+  font-size: 18px;
+}
+.e-mail-part input {
+  padding: 20px 70px;
+  background: transparent;
+  border: none;
+  position: relative;
+  left: -80px;
+}
+h1 {
+  font-size: 50px;
+  font-weight: 810;
+  line-height: 70px;
+  margin-top: -50px;
+}
+.subscription-part p {
+  margin-top: 40px;
+  margin-bottom: 18px;
+}
+.e-mail-part {
+  display: flex;
+}
+.e-mail {
+  display: flex;
+}
+.subscription-part form div {
+  display: flex;
+  align-items: center;
+  background: #5654d1;
+  border-radius: 40px;
+  width: 468px;
+  height: 61px;
+  padding: 0 20px;
+  gap: 20px;
+}
+.e-mail button {
+  padding: 10px 20px;
+  color: #6663e8;
+
+  font-size: 16px;
+  font-weight: 700;
+  background: white;
+  border: none;
+  margin-left: 30px;
+}
+/* last part footer part */
+footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 15%;
+}
+footer p {
+  width: 220px;
+  color: black;
+  font-size: 14px;
+  font-weight: 700;
+  margin-top: 40px;
+}
+/* logo of social media  */
+.social-media-logo {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+}
+
+.second-column-of-footer {
+  display: flex;
+  align-items: flex-start;
+  /* justify-content: space-around; */
+  gap: 170px;
+  margin-left: 15%;
+}
+.footer-link {
+  display: flex;
+}
+.footer-link ul {
+  display: flex;
+  flex-direction: column;
+}
+.footer-link ul li a {
+  color: black;
+}
+.First-heading {
+  font-weight: bold;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
